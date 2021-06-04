@@ -27,6 +27,8 @@ hr {
     margin-right: auto;
     height: 130px;
     margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 .contact-box a {
@@ -81,7 +83,7 @@ h2 {
 h5 {
     padding-top: 20px;
     padding-bottom: 10px;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: bold;
 }
@@ -92,6 +94,9 @@ h5 {
     width: 100%;
     text-align: start;
     padding: 10px 0 0 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 .navbar a {
@@ -194,7 +199,9 @@ h5 {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     gap: 700px;
-    background: #000000;
+    background-image: url('../img/tenor.gif');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .logo img {
@@ -324,6 +331,21 @@ h5 {
     font-size: 10px;
     padding: 20px 20px 20px 0;
     text-align: end;
+}
+
+.condiciones {
+    text-align: start;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.condiciones h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.condiciones h2 {
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Slideshow container */
