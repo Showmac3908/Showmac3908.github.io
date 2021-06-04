@@ -16,7 +16,3 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
 }
-
-ScrollReveal().reveal('.presentation-cards');
-ScrollReveal().reveal('.new-product');
-ScrollReveal().reveal('.product-cards');

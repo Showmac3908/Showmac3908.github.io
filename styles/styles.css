@@ -112,8 +112,9 @@ h5 {
     gap: 25px;
     margin: 10px 0;
     padding: 10px 0;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
 }
 
 .product-cards img {
@@ -125,7 +126,6 @@ h5 {
     font-size: 20px;
     margin: 20px;
     height: 45px;
-    font-size: 13px;
 }
 
 .product-cards h4 {
@@ -167,8 +167,9 @@ h5 {
     grid-template-columns: repeat(2, 1fr);
     margin: 10px 0;
     padding: 10px 0;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
     gap: 50px;
 }
 
@@ -182,8 +183,9 @@ h5 {
     grid-template-columns: repeat(2, 1fr);
     margin: 10px 0;
     padding: 10px 0;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
     gap: 30px;
 }
 
@@ -215,6 +217,9 @@ h5 {
     gap: 25px;
     margin: 10px 0;
     padding: 20px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
 }
 
 .new-cards a {
