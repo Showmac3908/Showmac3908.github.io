@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="../styles/styles.css">
 </head>
 <body>
+    
+    <button onclick="toTop()" id="topBtn" class="topBtn"><i class="fas fa-arrow-circle-up"></i></button>
 
     <div class="logo">
         <a href="../index.html">
@@ -30,11 +32,32 @@
     </div>
 
     <nav class="navbar">
-        <a href="../cursos-dipomados.html">CURSOS Y DIPLOMADOS</a>
-        <a href="../productos.html">PRODUCTOS</a>
-        <a href="../productos-recomendados.html">PRODUCTOS RECOMENDADOS</a>
-        <a href="../preguntas-frecuentes.html" style="padding-left: 280px;">PREGUNTAS FRECUENTES</a>
-        <a href="../contacto.html">CONTACTO</a>
+        <ul class="nav-menu">
+            <li>
+                <a href="../index.html">
+                    <img src="../img/Logo-gema.png" alt="logo 1" >
+                </a>
+                <img src="../img/Flor de Abril.png" alt="logo 2">
+            </li>
+            <li>
+                <a href="../cursos-dipomados.html">CURSOS Y DIPLOMADOS</a>
+            </li>
+            <li>
+                <a href="../productos.html">PRODUCTOS</a>
+            </li>
+            <li>
+                <a href="../productos-recomendados.html">PRODUCTOS RECOMENDADOS</a>
+            </li>
+            <li>
+                <a href="../preguntas-frecuentes.html">PREGUNTAS FRECUENTES</a>
+            </li>
+            <li>
+                <a href="../contacto.html">CONTACTO</a>
+            </li>
+        </ul>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
     </nav>
 
     <div class="container">
@@ -114,6 +137,8 @@
             </ul>
         </div>
     </div>
+    
+    <script src="../js/scrollReveal.js"></script>
     
 </body>
 </html>
